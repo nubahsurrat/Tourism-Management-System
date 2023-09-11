@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="london-paris-train-bus-plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\london-paris-train-bus-plane.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GettyImages-1154092756-e31f198466e443018b44a088ead1250b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GettyImages-1154092756-e31f198466e443018b44a088ead1250b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scaniabus4250x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scaniabus4250x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto1061316090170667a256x227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto1061316090170667a256x227.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alessio-lin-2n1SciGY5dI-unsplash-cópia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alessio-lin-2n1SciGY5dI-unsplash-cópia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new-traveler-booking-journey-sojern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-traveler-booking-journey-sojern.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-photo-994605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-photo-994605.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d8911afd06fc4490fa682e577dcb1abf184x113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d8911afd06fc4490fa682e577dcb1abf184x113.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bali-Dynasty-Resort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bali-Dynasty-Resort.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bali-Dynasty-Resort1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bali-Dynasty-Resort1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GooglePayLockupmax1200x1200245x199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GooglePayLockupmax1200x1200245x199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="247068465_284816416704900_1700602870131152108_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\247068465_284816416704900_1700602870131152108_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScaniaInterlinkMD250x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScaniaInterlinkMD250x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="261805173_456626885801085_854872466564808919_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\261805173_456626885801085_854872466564808919_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="068BjcjwBw0snwHIq0KNo5m15v1602794215245x199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\068BjcjwBw0snwHIq0KNo5m15v1602794215245x199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue_waters_of_Pangong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue_waters_of_Pangong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inked25827782LI150x150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inked25827782LI150x150.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="262512760308637667783152234393074461127770n250x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\262512760308637667783152234393074461127770n250x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-fabian-wiktor-994605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-fabian-wiktor-994605.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Himchori Beach at Cox'sBazar District1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Himchori Beach at Cox'sBazar District1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="449940logouticonpngblackpowerbuttontransparentpng69x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\449940logouticonpngblackpowerbuttontransparentpng69x50.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\200x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Himchori Beach at Cox'sBazar District" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Himchori Beach at Cox'sBazar District.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transportation-concept-hand-drawing-bus-ship-airplane-chalkboard-background-89662058 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transportation-concept-hand-drawing-bus-ship-airplane-chalkboard-background-89662058 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="141856" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\141856.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="141856 - Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\141856 - Copy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inked25827782_LI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inked25827782_LI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download40x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download40x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-618533326-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-618533326-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trains250x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trains250x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="masumiheadwearamazonpay245x199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\masumiheadwearamazonpay245x199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1418561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1418561.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6145740x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6145740x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transportation-concept-hand-drawing-bus-ship-airplane-chalkboard-background-89662058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transportation-concept-hand-drawing-bus-ship-airplane-chalkboard-background-89662058.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="141856 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\141856 - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotelbelairpresidentialsuitelivingroom256x227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotelbelairpresidentialsuitelivingroom256x227.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="single256x227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\single256x227.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Himchori Beach at Cox'sBazar District2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Himchori Beach at Cox'sBazar District2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="airplane5772311c3df78cb62c2109e0250x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\airplane5772311c3df78cb62c2109e0250x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="feedback-concept-image-arrows-blue-chalkboard-background-40378284" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\feedback-concept-image-arrows-blue-chalkboard-background-40378284.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
